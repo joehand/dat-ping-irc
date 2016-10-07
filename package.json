@@ -1,0 +1,23 @@
+{
+  "name": "dat-ping-irc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehand/dat-ping-irc.git"
+  },
+  "author": "Joe Hand <joe@hand.email> (https://joeahand.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joehand/dat-ping-irc/issues"
+  },
+  "homepage": "https://github.com/joehand/dat-ping-irc#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "irc": "^0.5.0"
+  }
+}
